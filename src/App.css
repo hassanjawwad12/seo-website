@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.background-animate {
+  background-size: 200%;
+  -webkit-animation: AnimateBackgroud 10s ease infinite;
+  -moz-animation: AnimateBackgroud 10s ease infinite;
+  animation: AnimateBackgroud 10s ease infinite;
+}
+
+@keyframes AnimateBackgroud {
+  0% {
+    background-position: 0;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0;
+  }
+}
+
+.chat::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.chat::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color of the scrollbar track */
+}
+
+.chat::-webkit-scrollbar-thumb {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+}
+
+.chat::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Set the color of the scrollbar thumb on hover */
+}
+
+.chat::-webkit-scrollbar-thumb:active {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Set the color of the scrollbar thumb when active */
+}
+
+
+
+
+
+
+/* Chat container */

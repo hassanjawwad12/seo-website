@@ -1,0 +1,47 @@
+
+.chat-message {
+    
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    background-color: #2e4053; 
+    color: white;
+    font-size: 14px; 
+  }
+  
+  /* CSS for user messages */
+  .chat-message.user-message {
+    background-color: #718096;
+  }
+  
+  /* CSS for AI messages */
+  .chat-message.ai-message {
+    background-color:  #2d3748
+
+    ; 
+  }
+
+  /* For Webkit-based browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 6px;
+  /* Adjust the width to make it thinner or thicker */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the thumb (scrollbar handle) */
+  border-radius: 2px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb on hover */
+}
+
+  
